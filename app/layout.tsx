@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   title: "PhD Thesis Defense - Aymane Ouhassoun",
   description:
     "Invitation to the PhD thesis defense on knowledge management and employee performance in Moroccan universities",
-  generator: "v0.app",
   openGraph: {
     title: "PhD Thesis Defense - Aymane Ouhassoun",
     description:
@@ -52,6 +51,7 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-icon.png",
   },
+    generator: 'v0.app'
 }
 
 export const viewport: Viewport = {
