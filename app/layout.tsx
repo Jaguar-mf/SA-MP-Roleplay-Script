@@ -14,6 +14,27 @@ export const metadata: Metadata = {
   description:
     "Invitation to the PhD thesis defense on knowledge management and employee performance in Moroccan universities",
   generator: "v0.app",
+  openGraph: {
+    title: "PhD Thesis Defense - Aymane Ouhassoun",
+    description:
+      "Invitation to the PhD thesis defense on knowledge management and employee performance in Moroccan universities",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "PhD Thesis Defense Invitation",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PhD Thesis Defense - Aymane Ouhassoun",
+    description:
+      "Invitation to the PhD thesis defense on knowledge management and employee performance in Moroccan universities",
+    images: ["/og-image.png"],
+  },
   icons: {
     icon: [
       {
