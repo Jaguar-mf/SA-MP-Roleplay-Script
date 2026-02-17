@@ -7,9 +7,12 @@ export const translations = {
 
     // Home Page
     home: {
-      title: "PhD Thesis Defense",
-      candidate: "Aymane Ouhassoun",
-      thesisTitle: "The impact of knowledge management on employee performance: Case of Moroccan universities.",
+      title: "Thank You",
+      candidate: "Dr. Aymane Ouhassoun",
+      thesisTitle: "I want to extend my deepest gratitude to everyone who attended my thesis defense. Your presence meant so much more than you might realize. The courage and support you showed gave me the strength to stand confidently before the jury and share my work. This academic milestone would not have been possible without your encouragement and belief in me. Thank you for being part of this important chapter of my journey. Your attendance has inspired me to continue pushing forward and pursuing even greater goals. I am truly grateful for each and every one of you.",
+      parentsTitle: "Most importantly, I want to express my infinite gratitude to my parents, Bahija, Fatih, and Abdellah Ouhassoun. Your unwavering love, endless encouragement, and selfless sacrifices have been the foundation of everything I've achieved. You believed in me even when I doubted myself. This degree is as much yours as it is mine. I dedicate this accomplishment to you with all my love and deepest appreciation.",
+      quote: "Success is not final, failure is not fatal. It is the courage to continue that counts.",
+      quoteAuthor: "— Winston Churchill",
       whenTitle: "When",
       whenDescription: "The exact date and time will be communicated through your personalized invitation",
       whereTitle: "Where",
@@ -92,10 +95,13 @@ export const translations = {
 
     // Home Page
     home: {
-      title: "Soutenance de Thèse de Doctorat",
-      candidate: "Aymane Ouhassoun",
+      title: "Merci",
+      candidate: "Dr. Aymane Ouhassoun",
       thesisTitle:
-        "L'impact de la gestion des connaissances sur la performance des employés : Cas des universités marocaines.",
+        "Je souhaite exprimer ma plus profonde gratitude à tous ceux qui ont assisté à la soutenance de ma thèse. Votre présence a signifié beaucoup plus que vous ne pouvez l'imaginer. Le courage et le soutien que vous m'avez apportés m'ont donné la force de me tenir avec confiance devant le jury et de partager mon travail. Cette étape académique n'aurait pas été possible sans votre encouragement et votre confiance en moi. Merci de faire partie de ce chapitre important de mon parcours. Votre présence m'a inspiré à continuer d'avancer et à poursuivre des objectifs encore plus grands. Je suis infiniment reconnaissant à chacun d'entre vous.",
+      parentsTitle: "Plus important encore, je veux exprimer ma gratitude infinie à mes parents, Bahija, Fatih et Abdellah Ouhassoun. Votre amour indéfectible, votre encouragement sans fin et vos sacrifices désintéressés ont été la fondation de tout ce que j'ai réussi. Vous aviez confiance en moi même quand je doutais de moi. Ce diplôme est autant le vôtre que le mien. Je dédie cette réussite à vous avec tout mon amour et ma plus profonde reconnaissance.",
+      quote: "La réussite n'est pas définitive, l'échec n'est pas fatal. C'est le courage de continuer qui compte.",
+      quoteAuthor: "— Winston Churchill",
       whenTitle: "Quand",
       whenDescription: "La date et l'heure exactes seront communiquées via votre invitation personnalisée",
       whereTitle: "Où",
@@ -178,9 +184,12 @@ export const translations = {
 
     // Home Page
     home: {
-      title: "مناقشة أطروحة الدكتوراه",
-      candidate: "أيمن أوحسون",
-      thesisTitle: "تأثير إدارة المعرفة على أداء الموظفين: حالة الجامعات المغربية.",
+      title: "شكراً لك",
+      candidate: "د. أيمن أوحسون",
+      thesisTitle: "أود أن أعرب عن أعمق امتناني لكل من حضروا مناقشة أطروحتي. كان حضوركم له معنى أكثر بكثير مما قد تتخيلوه. أعطتني الشجاعة والدعم الذي قدمتموه القوة للوقوف بثقة أمام لجنة التحكيم ومشاركة عملي. لم يكن هذا الإنجاز الأكاديمي ممكناً بدون تشجيعكم وإيمانكم بي. شكراً لكونكم جزءاً من هذا الفصل المهم من رحلتي. لقد ألهمني حضوركم لمتابعة المسيرة والعمل على تحقيق أهداف أكبر. أنا ممتن بشكل لا نهائي لكل واحد منكم.",
+      parentsTitle: "والأهم من ذلك، أود التعبير عن امتناني اللانهائي لوالدي، بهيجة وفاتح وعبد الله أوحسون. حبكم الثابت وتشجيعكم المستمر وتضحياتكم الجاهزة كانت أساس كل ما حققته. آمنتم بي حتى عندما كنت أشك في نفسي. هذه الدرجة العلمية هي لكما مثلما هي لي. أهدي هذا الإنجاز إليكما بكل حبي وتقديري الأعمق.",
+      quote: "النجاح ليس نهائياً، والفشل ليس قاتلاً. إنها الشجاعة للمتابعة هي ما يهم.",
+      quoteAuthor: "— ونستون تشرشل",
       whenTitle: "متى",
       whenDescription: "سيتم الإبلاغ عن التاريخ والوقت المحددين من خلال دعوتك الشخصية",
       whereTitle: "أين",
