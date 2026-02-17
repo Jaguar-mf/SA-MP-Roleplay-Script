@@ -40,43 +40,6 @@ export default function HomePage() {
                 {t.home.candidate}
               </p>
             </div>
-
-            {/* Main Message */}
-            <div className="max-w-3xl mx-auto">
-              <div className="bg-white p-10 rounded-3xl shadow-2xl border border-slate-100">
-                <p className="text-xl text-slate-700 leading-relaxed text-balance">
-                  {t.home.thesisTitle}
-                </p>
-              </div>
-            </div>
-
-            {/* Subtitle */}
-            <p className="text-lg text-slate-600 italic">
-              "{t.home.quote}" {t.home.quoteAuthor}
-            </p>
-
-            {/* Special Thank You to Parents */}
-            <div className="max-w-3xl mx-auto pt-8">
-              <div className="bg-gradient-to-r from-blue-50 to-slate-50 p-8 rounded-3xl border-2 border-blue-200">
-                <p className="text-lg text-slate-700 leading-relaxed text-balance">
-                  {t.home.parentsTitle}
-                </p>
-              </div>
-            </div>
-
-            {/* Main Message */}
-            <div className="max-w-3xl mx-auto">
-              <div className="bg-white p-10 rounded-3xl shadow-2xl border border-slate-100">
-                <p className="text-xl text-slate-700 leading-relaxed text-balance">
-                  I want to extend my deepest gratitude to everyone who attended my thesis defense. Your presence meant so much more than you might realize. The courage and support you showed gave me the strength to stand confidently before the jury and share my work. This academic milestone would not have been possible without your encouragement and belief in me. Thank you for being part of this important chapter of my journey. Your attendance has inspired me to continue pushing forward and pursuing even greater goals. I am truly grateful for each and every one of you.
-                </p>
-              </div>
-            </div>
-
-            {/* Subtitle */}
-            <p className="text-lg text-slate-600 italic">
-              "Success is not final, failure is not fatal. It is the courage to continue that counts." — Winston Churchill
-            </p>
           </div>
         </div>
       </section>

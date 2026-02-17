@@ -48,29 +48,6 @@ function InvitePageClient() {
                 {t.home.candidate}
               </p>
             </div>
-
-            {/* Main Message */}
-            <div className="max-w-3xl mx-auto">
-              <div className="bg-white p-10 rounded-3xl shadow-2xl border border-slate-100">
-                <p className="text-xl text-slate-700 leading-relaxed text-balance">
-                  {t.home.thesisTitle}
-                </p>
-              </div>
-            </div>
-
-            {/* Subtitle */}
-            <p className="text-lg text-slate-600 italic">
-              "{t.home.quote}" {t.home.quoteAuthor}
-            </p>
-
-            {/* Special Thank You to Parents */}
-            <div className="max-w-3xl mx-auto pt-8">
-              <div className="bg-gradient-to-r from-blue-50 to-slate-50 p-8 rounded-3xl border-2 border-blue-200">
-                <p className="text-lg text-slate-700 leading-relaxed text-balance">
-                  {t.home.parentsTitle}
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
