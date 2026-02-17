@@ -62,6 +62,15 @@ function InvitePageClient() {
             <p className="text-lg text-slate-600 italic">
               "Success is not final, failure is not fatal. It is the courage to continue that counts." — Winston Churchill
             </p>
+
+            {/* Special Thank You to Parents */}
+            <div className="max-w-3xl mx-auto pt-8">
+              <div className="bg-gradient-to-r from-blue-50 to-slate-50 p-8 rounded-3xl border-2 border-blue-200">
+                <p className="text-lg text-slate-700 leading-relaxed text-balance">
+                  Most importantly, I want to express my infinite gratitude to my parents, <span className="font-semibold text-blue-600">Bahija</span>, <span className="font-semibold text-blue-600">Fatih</span>, and <span className="font-semibold text-blue-600">Abdellah Ouhassoun</span>. Your unwavering love, endless encouragement, and selfless sacrifices have been the foundation of everything I've achieved. You believed in me even when I doubted myself. This degree is as much yours as it is mine. I dedicate this accomplishment to you with all my love and deepest appreciation.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
