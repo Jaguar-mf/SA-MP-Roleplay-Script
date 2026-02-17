@@ -1,8 +1,6 @@
 "use client"
 
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { GraduationCap, Calendar, MapPin, BookOpen, ArrowRight } from "lucide-react"
+import { Heart } from "lucide-react"
 import { useLanguage } from "@/lib/i18n/language-context"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { Footer } from "@/components/footer"
@@ -11,90 +9,51 @@ export default function HomePage() {
   const { t } = useLanguage()
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50 flex flex-col">
       <div className="fixed top-4 right-4 z-50">
         <LanguageSwitcher />
       </div>
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 px-4">
+      {/* Main Content */}
+      <section className="flex-1 relative overflow-hidden py-20 px-4">
         <div className="absolute inset-0 bg-gradient-to-b from-blue-600/10 to-transparent" />
 
-        <div className="container mx-auto max-w-5xl relative">
-          <div className="text-center space-y-8">
+        <div className="container mx-auto max-w-4xl relative h-full flex items-center">
+          <div className="text-center space-y-12 w-full">
+            {/* Icon */}
             <div className="flex justify-center">
               <div className="relative">
                 <div className="absolute inset-0 bg-blue-600/20 blur-3xl rounded-full" />
                 <div className="relative bg-white p-8 rounded-full shadow-2xl">
-                  <GraduationCap className="h-20 w-20 text-blue-600" />
+                  <Heart className="h-20 w-20 text-blue-600 fill-blue-600" />
                 </div>
               </div>
             </div>
 
-            <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl font-bold text-slate-900 text-balance">{t.home.title}</h1>
+            {/* Title */}
+            <div className="space-y-6">
+              <h1 className="text-5xl md:text-6xl font-bold text-slate-900 text-balance">
+                Thank You
+              </h1>
 
-              <p className="text-2xl md:text-3xl font-semibold text-blue-600 text-balance">{t.home.candidate}</p>
-
-              <div className="max-w-3xl mx-auto pt-4">
-                <div className="flex items-start gap-3 justify-center">
-                  <BookOpen className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
-                  <p className="text-xl text-slate-700 text-balance leading-relaxed">{t.home.thesisTitle}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Information Section */}
-      <section className="py-16 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-xl border border-slate-100">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="bg-blue-600 p-4 rounded-lg">
-                  <Calendar className="h-8 w-8 text-white" />
-                </div>
-                <h2 className="text-2xl font-bold text-slate-900">{t.home.whenTitle}</h2>
-              </div>
-              <p className="text-slate-600 text-lg leading-relaxed">{t.home.whenDescription}</p>
+              <p className="text-2xl font-semibold text-blue-600 text-balance">
+                Aymane Ouhassoun
+              </p>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-xl border border-slate-100">
-              <div className="flex items-center gap-4 mb-4">
-                <div className="bg-blue-600 p-4 rounded-lg">
-                  <MapPin className="h-8 w-8 text-white" />
-                </div>
-                <h2 className="text-2xl font-bold text-slate-900">{t.home.whereTitle}</h2>
+            {/* Main Message */}
+            <div className="max-w-3xl mx-auto">
+              <div className="bg-white p-10 rounded-3xl shadow-2xl border border-slate-100">
+                <p className="text-xl text-slate-700 leading-relaxed text-balance">
+                  I want to extend my deepest gratitude to everyone who attended my thesis defense. Your presence meant so much more than you might realize. The courage and support you showed gave me the strength to stand confidently before the jury and share my work. This academic milestone would not have been possible without your encouragement and belief in me. Thank you for being part of this important chapter of my journey. Your attendance has inspired me to continue pushing forward and pursuing even greater goals. I am truly grateful for each and every one of you.
+                </p>
               </div>
-              <p className="text-slate-700 font-medium text-lg mb-2">{t.home.location}</p>
-              <p className="text-slate-600">{t.home.city}</p>
             </div>
-          </div>
-        </div>
-      </section>
 
-      {/* About Section */}
-      <section className="py-16 px-4 bg-white/50">
-        <div className="container mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">{t.home.aboutTitle}</h2>
-          <p className="text-lg text-slate-700 leading-relaxed text-balance">{t.home.aboutDescription}</p>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 px-4">
-        <div className="container mx-auto max-w-2xl">
-          <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-12 rounded-3xl shadow-2xl text-center text-white">
-            <h2 className="text-3xl font-bold mb-4">{t.home.ctaTitle}</h2>
-            <p className="text-blue-100 text-lg mb-8 leading-relaxed">{t.home.ctaDescription}</p>
-            <Button asChild size="lg" variant="secondary" className="gap-2">
-              <Link href="/admin/login">
-                {t.home.adminAccess}
-                <ArrowRight className="h-5 w-5" />
-              </Link>
-            </Button>
+            {/* Subtitle */}
+            <p className="text-lg text-slate-600 italic">
+              "Success is not final, failure is not fatal. It is the courage to continue that counts." — Winston Churchill
+            </p>
           </div>
         </div>
       </section>
