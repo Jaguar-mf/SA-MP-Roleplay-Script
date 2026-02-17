@@ -4,6 +4,7 @@ import { Heart } from "lucide-react"
 import { useLanguage } from "@/lib/i18n/language-context"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { Footer } from "@/components/footer"
+import { useEffect, useState } from "react"
 
 interface InvitePageProps {
   params: Promise<{ code: string }>
@@ -15,6 +16,15 @@ export default async function InvitePage({ params }: InvitePageProps) {
 
 function InvitePageClient() {
   const { t } = useLanguage()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-50 flex flex-col">
